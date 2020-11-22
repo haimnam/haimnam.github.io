@@ -1,16 +1,16 @@
 remote_theme:       davidtmiller/startbootstrap-clean-blog-jekyll
 
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              OSS-Quiz(2)
+email:              haimnam10@gmail.com
+description:        남하임의 개인 정적 페이지
+author:             2017310608 남하임
 baseurl:
 url:                "https://haimnam.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
+twitter_username:   
+github_username:    haimnam
+facebook_username:  haimnam
 instagram_username:  
 linkedin_username:
 
