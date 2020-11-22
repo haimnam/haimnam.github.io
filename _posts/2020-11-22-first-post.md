@@ -1,40 +1,57 @@
 ---
 layout: post
-title: "Dinosaurs are extinct today"
-subtitle: "because they lacked opposable thumbs and the brainpower to build a space program."
-date: 2020-01-26 23:45:13 -0400
+title: "About Team Project"
+subtitle: "팀 프로젝트에 대한 소개(현재 진행 상태), 선정 과정, 개선 사항"
+date: 2020-11-22
 background: '/img/posts/01.jpg'
 ---
 
-<p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
+<h2 class="section-heading">팀 프로젝트 소개</h2>
 
-<p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+<p>성균관대학교 아이캠퍼스(icampus.skku.edu)에서 강의를 다운로드해주는 프로그램</p>
 
-<p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+<p>프로젝트 URL : https://github.com/trayo9852/skku_icampus_auto_downloader</p>
 
-<p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+<p>아이캠퍼스 사이트에서 강의를 수강할 때 자유로운 spanning이 어렵고 시험기간과 같은 중요한 시기에 서버가 비정상적일 때 강의를 수강하는데 불편함이 있기 때문에 기존에 수동으로 직접 다운로드 받거나 강의 별로 chrome extension을 사용하여 다운로드 받는 방법들이 빈번히 사용되었다. 그러나 이러한 방법들은 매 강의마다 사용자가 직접 강의를 재생하고 다운로드 받아야 하며 다운로드 받은 파일을 따로 정리 및 관리해야 한다는 점이 매우 번거롭게 느껴진다.</p>
 
-<p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+<p>해당 프로젝트는 이러한 불편점들을 해결하기 위해 해당 사용자가 수강하는 강좌들을 전부 자동으로 다운로드 받아주고 강좌별, 또는 주차별로 다운로드 받은 파일을 관리해주며 매주 업데이트 되는 강좌들을 자동으로 다운로드 받아주는 All-in-one 솔루션을 제공한다.</p>
 
-<h2 class="section-heading">The Final Frontier</h2>
+<h2 class="section-heading">현재 진행 상태</h2>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<p>해당 프로젝트는 현재 browser automation 라이브러리인 selenium과 이를 proxy server와 연결하여 사용할 수 있는 라이브러리인 selenium-wire을 사용하여 구현되었으며 정상적으로 작동은 하나 현재 가장 기본적인 기능만 제공하며 작동한다. 또한 아직 사용자 계정에 대한 일반화가 되지 않아 수강하는 강좌의 class id를 직접 설정하여야 하고 UI를 제공하지 않는 등 일반적인 사용자가 사용하기 쉽지 않은 상태이다.</p>
 
-<p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+<h2 class="section-heading">팀 프로젝트 선정 과정</h2>
 
-<blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+<p>팀원들 모두 1개 이상의 프로젝트를 제안하고, 개인이 선정한 프로젝트를 발표한 뒤 투표를 통해 2개의 최종 프로젝트 후보를 선정하였다. 2개의 프로젝트 후보에 대해 충분히 분석해보고 개선 방법 등과 관련하여 논의가 이루어진 후 최종 프로젝트를 선정하게 되었다.</p>
 
-<p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+<p>팀원들이 실제로 성균관대 iCampus를 사용하는 사용자라는 점에서 해당 프로젝트가 흥미롭게 여겨졌고, 사용하면서 겪었던 경험들을 바탕으로 detail한 부분에서의 기여가 가능할 것이라고 생각하였다. 팀원 모두가 구사할 수 있는 언어인 python을 기반으로 하고, 평소 관심 많았던 crawling을 기반으로 한 프로젝트라는 점도 매력적으로 다가왔다. 오픈소스를 보완, 기여함으로써 해당 프로젝트의 발전에 이바지한다면 향후 성균관대 iCampus 강의를 저장하고자 하는 사용자들에게도 큰 도움이 될 수 있을 것이라는 기대가 된다.</p>
 
-<h2 class="section-heading">Reaching for the Stars</h2>
+<h2 class="section-heading">팀 프로젝트 개선 사항</h2>
 
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+<p>팀 프로젝트에 기여하는 방법으로 크게 코드 개선, 기능 추가, 문서화, UI 개선으로 나눌 수 있다.</p>
 
-<img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
-<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+<p>코드 개선 1. 다운로드 받고자 하는 교과목 강의, 해당 강의의 주차, 파일의 format 등 user가 오픈소스를 다양한 옵션으로 이용할 수 있도록 한다.</p>
 
-<p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
+<p>코드 개선 2. 현재의 프로그램은 account-dependent하여 사용자 계정에 맞게 강좌의 class ID를 일일이 설정해야 사용이 가능하다는 단점이 있는데 이를 일반화함으로써 해당 문제를 해결하도록 한다.</p>
 
-<p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
+<p>코드 개선 3. 기존에는 selenium과 proxy를 사용하여 traffic capture로써 작동하지만 session sharing을 통해 direct request를 함으로써 browser automation에 대한 의존도를 감소시키고 작동 속도를 개선한다.</p>
 
-<p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://unsplash.com/">Unsplash</a>.</p>
+<p>코드 개선 4. 기타 코드를 개선하고 모듈화한다.</p>
+
+<p>코드 개선 5. multiprocessing을 도입함으로써 다운로드의 속도를 높인다.</p>
+
+<p> </p>
+
+<p>기능 추가 1. 다운로드 받을 위치를 onedrive 또는 google drive와 같은 cloud 서비스를 사용할 수 있도록 기능을 추가한다.</p>
+
+<p>기능 추가 2. 수강하는 강의들의 볼륨이 일정하지 않고 불규칙함을 알 수 있다. 이러한 강의들의 볼륨을 평탄화, 평준화, 일반화시키는 기능을 추가한다. 기존 라이브러리를 활용함으로써 기능을 추가할 수 있다.</p>
+
+<p> </p>
+
+<p>문서화 1. 해당 프로그램이 제공하는 기능에 대해 자세히 설명하고 그 작동 방법을 작성한다. 또한 팀 프로젝트를 진행하면서 추가되는 기능 또는 개선되는 코드에 대해서도 설명이 필요한 부분이 있다면 이 또한 문서화한다.</p>
+
+<p>문서화 2. 저작권 관련 안내 사항과 사용시 주의해야 할 점을 명시한 내용을 공지한다.</p>
+
+<p> </p>
+
+<p>) UI 개선. 지금의 프로그램은 user-friendly하다는 단점이 있는데 CLI 및 GUI를 추가하여 UX를 제공함으로써 이러한 문제를 해결한다.</p>
